@@ -1,0 +1,202 @@
+/* Reset and basic styles */
+html, body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+}
+
+/* Global container styles */
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Header styles */
+.header {
+    background-color: #4caf7c;
+    color: white;
+    text-align: center;
+    padding: 40px 0;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.header h1 {
+    margin: 0;
+    font-size: 36px;
+}
+
+.header p {
+    margin: 10px 0 0;
+    font-size: 18px;
+}
+
+/* Main content section */
+.content {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: -30px; /* Adjust to overlap with header */
+}
+
+/* Personal information section */
+.personal-info {
+    margin-bottom: 20px;
+}
+
+.personal-info h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.personal-info p {
+    margin: 5px 0;
+}
+
+/* Summary section */
+.summary {
+    margin-bottom: 20px;
+}
+
+.summary h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.summary p {
+    margin: 5px 0;
+}
+
+/* Skills section */
+.skills {
+    margin-bottom: 20px;
+}
+
+.skills h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.skill {
+    margin-bottom: 10px;
+}
+
+.skill p {
+    margin: 5px 0;
+}
+
+/* Experience section */
+.experience {
+    margin-bottom: 20px;
+}
+
+.experience h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.experience .job {
+    margin-bottom: 10px;
+}
+
+.job p {
+    margin: 5px 0;
+}
+
+/* Education section */
+.education {
+    margin-bottom: 20px;
+}
+
+.education h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.education .school {
+    margin-bottom: 10px;
+}
+
+.school p {
+    margin: 5px 0;
+}
+
+/* References section */
+.references {
+    margin-bottom: 20px;
+}
+
+.references h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.references .reference {
+    margin-bottom: 10px;
+}
+
+.reference p {
+    margin: 5px 0;
+}
+
+/* Edit button */
+.edit-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff; /* Blue color for the button */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.edit-button:hover {
+    background-color: #0056b3; /* Darker shade of blue on hover */
+}
+
+/* Media queries for responsive design */
+@media only screen and (max-width: 768px) {
+    .container {
+        padding: 10px;
+    }
+
+    .header h1 {
+        font-size: 28px;
+    }
+
+    .header p {
+        font-size: 16px;
+    }
+
+    .summary h2,
+    .skills h2,
+    .experience h2,
+    .education h2,
+    .references h2 {
+        font-size: 22px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .header h1 {
+        font-size: 24px;
+    }
+
+    .header p {
+        font-size: 14px;
+    }
+
+    .summary h2,
+    .skills h2,
+    .experience h2,
+    .education h2,
+    .references h2 {
+        font-size: 20px;
+    }
+}

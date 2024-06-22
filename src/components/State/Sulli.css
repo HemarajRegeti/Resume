@@ -1,0 +1,107 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+.resume {
+    max-width: 900px;
+    margin: 20px auto;
+    background: #fff;
+    padding: 20px;
+    border: 1px solid #ccc;
+}
+
+.header {
+    text-align: center;
+    background: #e8d8d8;
+    padding: 20px 0;
+    border-bottom: 5px solid #3e3e3e;
+}
+
+.header h1 {
+    margin: 0;
+    font-size: 36px;
+    color: #3e3e3e;
+}
+
+.header p {
+    margin: 10px 0 0;
+    font-size: 14px;
+    color: #3e3e3e;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.about-me,
+.contacts,
+.personal-skills,
+.work-experience,
+.education,
+.professional-skills,
+.achievements,
+.reference {
+    flex: 1 1 100%;
+    margin-bottom: 20px;
+}
+
+h2 {
+    margin: 0 0 10px;
+    font-size: 24px;
+    color: #3e3e3e;
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 5px;
+}
+
+.about-me p,
+.contacts address,
+.work-experience .job p,
+.education .school p,
+.achievements ul,
+.reference p {
+    margin: 10px 0;
+    font-size: 14px;
+    color: #333;
+    line-height: 1.5;
+}
+
+.hobbies,
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.hobbies li,
+.skills li {
+    list-style: none;
+    background: #e8d8d8;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.buttons {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.buttons button {
+    background: #3e3e3e;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin: 0 10px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+.buttons button:hover {
+    background: #2c2c2c;
+}

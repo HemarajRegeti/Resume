@@ -1,0 +1,192 @@
+
+html {
+    max-width: 770px;
+    margin: 0 auto;
+}
+body {
+    margin: 0 0 20px;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+ul {
+    list-style-type: none;
+    margin-left: 0;
+    padding-left: 0;
+}
+
+#pdfLink {
+    float: right;
+    top: 0;
+    right: 0;
+    background-color: #f00;
+    color: #fff;
+    padding: 3px;
+}
+
+.content {
+    clear: right;
+}
+
+.bold {
+    font-weight: bold;
+}
+.italic {
+    font-style: italic;
+}
+
+
+.date {
+    font-weight: bold;
+    float: right;
+}
+
+header {
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+
+header h1 {
+    font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 20px;
+    margin: 0.75em 0 0;
+}
+
+.myInfo {
+    font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+    text-align: center;
+}
+
+
+.myInfo li {
+    display: inline-block;
+}
+
+
+main {
+    max-width: 700px;
+    margin: 0 auto;
+    padding-bottom: 10px;
+}
+
+h2 {
+    font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+    text-transform: uppercase;
+}
+
+.edu ul {
+    font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+}
+
+.edu li:nth-child(2) {
+    font-weight: bold;
+    float: left;
+    clear: left;
+}
+.edu li:nth-child(4) {
+    clear: left;
+}
+
+.NIU li:nth-child(4) {
+    margin-bottom: 20px;
+}
+
+.CSUN li:first-child {
+    width: 75%;
+}
+
+
+.awards ul {
+    font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+}
+
+
+.awards ul li:first-child {
+    float: left;
+    clear: right;
+}
+
+.awards ul:nth-child(3) li:first-child {
+    width: 50%;
+}
+
+.awards ul li:last-child {
+    clear: left;
+}
+
+.work div {
+    font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+}
+
+.work div ul:nth-child(even) {
+    padding-left: 20px;
+    list-style-type: square;
+}
+
+.GCC .italic {
+    width: 50%;
+}
+
+/* Styles computer skills */
+.skills ul {
+    font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+    padding: 0;
+    list-style-type: none;
+}
+
+.skills li+li {
+    margin-top: 10px;
+}
+.projects ul {
+    font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+    padding-left: 0;
+    margin-left: 0;
+    list-style-type: none;
+}
+
+
+.projects li+li {
+    margin-top: 10px;
+}
+
+
+@media screen and (min-width: 746px) {
+    .myInfo li:nth-child(2):before {
+        content: " | ";
+    }
+    .myInfo li:last-child:before {
+        content: " | ";
+    }
+}
+
+
+@media screen and (min-width: 619px) and (max-width: 745px) {
+    .myInfo li:nth-child(2):before {
+        content: " | ";
+    }
+}
+@media screen and (min-width: 700px) {
+    .content {
+        box-shadow: 0 0 5px 5px #ccc;
+        border-radius: 5px;
+    }
+}
+
+@media screen and (min-width: 355px) and (max-width: 618px) {
+    .myInfo li:nth-child(2):after {
+        content: " | ";
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 415px) {
+    .myInfo li:first-child {
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+}

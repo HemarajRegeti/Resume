@@ -1,0 +1,118 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+.resume {
+    display: flex;
+    max-width: 900px;
+    margin: 20px auto;
+    background: #fff;
+    border: 1px solid #ccc;
+}
+
+.sidebar {
+    width: 250px;
+    background: #213143;
+    color: #fff;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.sidebar .photo {
+    width: 100px;
+    height: 100px;
+    background: #fff;
+    border-radius: 50%;
+    margin: 0 auto 20px;
+}
+
+.sidebar h1 {
+    text-align: center;
+    font-size: 22px;
+    margin: 0;
+}
+
+.sidebar h2 {
+    text-align: center;
+    font-size: 18px;
+    margin: 10px 0 20px;
+    color: #f9a11c;
+}
+
+.sidebar section {
+    margin-bottom: 20px;
+}
+
+.sidebar h3 {
+    font-size: 16px;
+    margin: 0 0 10px;
+}
+
+.sidebar p {
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.content {
+    flex: 1;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.content h3 {
+    font-size: 18px;
+    margin: 0 0 10px;
+    color: #213143;
+}
+
+.content .job, .content .school, .content .reference {
+    margin-bottom: 20px;
+}
+
+.content .job h4, .content .school h4 {
+    font-size: 16px;
+    margin: 0 0 5px;
+}
+
+.content p {
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.skills ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.skills li {
+    background: #213143;
+    color: #fff;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+.buttons {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.buttons button {
+    background: #213143;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin: 0 10px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+.buttons button:hover {
+    background: #2c2c2c;
+}

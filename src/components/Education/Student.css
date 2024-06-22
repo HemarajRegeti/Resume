@@ -1,0 +1,77 @@
+.App {
+    font-family: Arial, sans-serif;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .resume {
+    background: #fa9696;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .resume-name {
+    font-size: 2.5em;
+    font-weight: bold;
+    color: #d9534f;
+    border: none;
+    width: 100%;
+  }
+  
+  .resume-title {
+    font-size: 1.8em;
+    color: #d9534f;
+    border: none;
+    width: 100%;
+    margin-top: 10px; /* Added margin top */
+  }
+  
+  .resume-contact {
+    font-size: 1.2em;
+    color: #333;
+    border: none;
+    width: 100%;
+  }
+  
+  .resume-summary,
+  .resume-job-detail,
+  .resume-strength-detail {
+    width: 100%;
+    border: none;
+    background: #f5f5f5;
+    padding: 15px; /* Increased padding */
+    margin-bottom: 15px; /* Increased margin bottom */
+    border-radius: 3px; /* Added border radius */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Added box shadow */
+  }
+  
+  .resume-section {
+    margin-top: 30px; /* Increased margin top */
+  }
+  
+  .resume-job,
+  .resume-strength,
+  .resume-skill,
+  .resume-achievement,
+  .resume-award {
+    margin-bottom: 20px; /* Increased margin bottom */
+  }
+  
+  .resume-job-role,
+  .resume-job-company,
+  .resume-job-location,
+  .resume-strength-title,
+  .resume-achievement-title,
+  .resume-award-title,
+  .resume-skill {
+    width: 100%;
+    border: none;
+    background: #a19f9f;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 3px; /* Added border radius */
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1); /* Added box shadow */
+  }
+  
